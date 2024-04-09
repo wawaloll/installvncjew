@@ -17,7 +17,7 @@ cd server
 mv config.go config.go.og
 clear
 echo [WARN]
-echo The input is NOT censored, if you are sharing your screen on telegram or any other platform, please disable it for a minute :)
+echo The input is NOT censored, if you are sharing your screen on telegram or any other platform, please disable it for a minute
 sleep 2
 clear
 read -p "[CONFIG] What is your IPInfo token? (https://ipinfo.io/): " token 
