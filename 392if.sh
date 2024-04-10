@@ -322,9 +322,10 @@ go build
 cd ../server
 go build 
 clear
-echo Done! I recommend using screen, to run both the client and the server (server first). Edit the main.go file in the client folder if you want to change the IP.
+echo Done! I recommend using screen, to run both the client and the server server first. Edit the main.go file in the client folder if you want to change the IP.
 echo [INFO] To run client with screen, run "screen go run main.go" inside the client directory, then ctrl + a + d
 echo [INFO] To run server with screen, run "screen ./vncjew" inside the server directory, then ctrl + a + d
+echo [IMPORTANT] server always should be ran first!
 echo [INFO] And also, heres your IP:
 curl -s https://api.ipify.org
 
