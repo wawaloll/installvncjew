@@ -39,6 +39,9 @@ Run `go run main go` in the client machine in the client directory.<br>
 # Run/Stop scans
 Go to `[ur ip]:8080/admin/start` to start the scan.<br>
 Go to `[ur ip]:8080/admin/stop` to stop the scan.
-
+# Troubleshooting
+If you get this error in the client: `2024/04/10 01:35:03 websocket.Dial wss://localhost:8080/api/client: tls: first record does not look like a TLS handshake`, try changing these lines: <br>
+`sec := "s"` to `sec := ""`<br>
+and `Origin: &url.URL{Scheme: "https", Host: server}` to `Origin: &url.URL{Scheme: "http", Host: server}`<br>
 # If you are a bit lazy, and dont wanna do the part of this then run:
 `sudo apt-get install -y git python3 python3-numpy websockify nmap masscan iptables libjpeg-dev libvncserver-dev && git clone https://github.com/jsteel2/vncjew && cd ./vncjew/server && wget https://github.com/wawaloll/installvncjew/raw/main/vncscreenshot && chmod +x ./vncscreenshot`
