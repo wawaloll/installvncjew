@@ -23,6 +23,18 @@ var password = "***REMOVED***"
 ```
 Replace the server variable with your server IP(and add :8080), if you are running the client & the server on the same instance, replace the server variable to localhost:8080<br>
 Replace the password variable the the client password.<br>
+# Build and Run server and client
+Remember, server is always first<br>
+## On same machine
+To build, go to the server directory and run go build, for client not needed. <br>
+Use screen.<br>
+`screen ./vncjew` in the server directory.<br>
+`screen go run main.go` in the client directory.<br>
+To detach, do ctrl+a+d<br>
+## Not on same machine 
+The build instructions are the same. <br>
+Run `./vncjew` in the host machine in the server directory.<br>
+Run `go run main go` in the client machine in the client directory.<br>
 
 # Run/Stop scans
 Go to `[ur ip]:8080/admin/start` to start the scan.<br>
