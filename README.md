@@ -1,5 +1,5 @@
 # installvncjew
-Install VNCJew (shodan images copy i guess) // https://github.com/jsteel2/vncjew <br>
+Install VNCJew (shodan images copy i guess) // https://github.com/jsteel2/vncjew <br> diy edition!
 
 # Install dependencies
 If you are on ubuntu you can easily use snap install go. otherwise idk <br>
