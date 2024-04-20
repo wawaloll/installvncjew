@@ -23,6 +23,9 @@ var password = "***REMOVED***"
 ```
 Replace the server variable with your server IP(and add :8080), if you are running the client & the server on the same instance, replace the server variable to localhost:8080<br>
 Replace the password variable the the client password.<br>
+
+# Installing noVNC
+Go into the vncjew/server directory, then run `git clone https://github.com/novnc/noVNC` and you are done.
 # Build and Run server and client
 Remember, server is always first<br>
 ## On same machine
