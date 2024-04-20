@@ -25,7 +25,7 @@ Replace the server variable with your server IP(and add :8080), if you are runni
 Replace the password variable the the client password.<br>
 
 # Installing noVNC
-Go into the vncjew/server directory, then run `git clone https://github.com/novnc/noVNC` and you are done.
+Go into the vncjew/server directory, then run `git clone https://github.com/novnc/noVNC`, run `mv noVNC novnc` and you are done.
 # Build and Run server and client
 Remember, server is always first<br>
 ## On same machine
